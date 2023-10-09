@@ -42,18 +42,18 @@
             // 
             this.lcmTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.lcmTextBox.Location = new System.Drawing.Point(70, 92);
+            this.lcmTextBox.Location = new System.Drawing.Point(70, 85);
             this.lcmTextBox.Name = "lcmTextBox";
-            this.lcmTextBox.Size = new System.Drawing.Size(206, 20);
+            this.lcmTextBox.Size = new System.Drawing.Size(206, 19);
             this.lcmTextBox.TabIndex = 15;
             this.lcmTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(12, 95);
+            this.label3.Location = new System.Drawing.Point(12, 88);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(32, 13);
+            this.label3.Size = new System.Drawing.Size(30, 12);
             this.label3.TabIndex = 14;
             this.label3.Text = "LCM:";
             // 
@@ -61,26 +61,26 @@
             // 
             this.gcdTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.gcdTextBox.Location = new System.Drawing.Point(70, 66);
+            this.gcdTextBox.Location = new System.Drawing.Point(70, 61);
             this.gcdTextBox.Name = "gcdTextBox";
-            this.gcdTextBox.Size = new System.Drawing.Size(206, 20);
+            this.gcdTextBox.Size = new System.Drawing.Size(206, 19);
             this.gcdTextBox.TabIndex = 13;
             this.gcdTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(12, 69);
+            this.label2.Location = new System.Drawing.Point(12, 64);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(33, 13);
+            this.label2.Size = new System.Drawing.Size(31, 12);
             this.label2.TabIndex = 12;
             this.label2.Text = "GCD:";
             // 
             // findGcdButton
             // 
-            this.findGcdButton.Location = new System.Drawing.Point(107, 37);
+            this.findGcdButton.Location = new System.Drawing.Point(107, 34);
             this.findGcdButton.Name = "findGcdButton";
-            this.findGcdButton.Size = new System.Drawing.Size(75, 23);
+            this.findGcdButton.Size = new System.Drawing.Size(75, 21);
             this.findGcdButton.TabIndex = 11;
             this.findGcdButton.Text = "Find GCD";
             this.findGcdButton.UseVisualStyleBackColor = true;
@@ -88,18 +88,18 @@
             // 
             // number2TextBox
             // 
-            this.number2TextBox.Location = new System.Drawing.Point(176, 11);
+            this.number2TextBox.Location = new System.Drawing.Point(176, 10);
             this.number2TextBox.Name = "number2TextBox";
-            this.number2TextBox.Size = new System.Drawing.Size(100, 20);
+            this.number2TextBox.Size = new System.Drawing.Size(100, 19);
             this.number2TextBox.TabIndex = 10;
             this.number2TextBox.Text = "45";
             this.number2TextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // number1TextBox
             // 
-            this.number1TextBox.Location = new System.Drawing.Point(70, 11);
+            this.number1TextBox.Location = new System.Drawing.Point(70, 10);
             this.number1TextBox.Name = "number1TextBox";
-            this.number1TextBox.Size = new System.Drawing.Size(100, 20);
+            this.number1TextBox.Size = new System.Drawing.Size(100, 19);
             this.number1TextBox.TabIndex = 9;
             this.number1TextBox.Text = "60";
             this.number1TextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -107,18 +107,18 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 14);
+            this.label1.Location = new System.Drawing.Point(12, 13);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(52, 13);
+            this.label1.Size = new System.Drawing.Size(52, 12);
             this.label1.TabIndex = 8;
             this.label1.Text = "Numbers:";
             // 
             // Form1
             // 
             this.AcceptButton = this.findGcdButton;
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(288, 123);
+            this.ClientSize = new System.Drawing.Size(288, 114);
             this.Controls.Add(this.lcmTextBox);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.gcdTextBox);
@@ -128,6 +128,7 @@
             this.Controls.Add(this.number1TextBox);
             this.Controls.Add(this.label1);
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Gcd";
             this.ResumeLayout(false);
             this.PerformLayout();
