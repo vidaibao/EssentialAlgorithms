@@ -27,12 +27,50 @@ namespace ExponentiateMod
             resultTextBox.Text = result.ToString();
         }
 
+
+        /*
+         * Hàm này thực hiện phép tính lũy thừa (exponentiation) của một số nguyên (value) 
+         * theo một số mũ (exponent) trong một modulo (modulus) đã cho. 
+         * Hàm này sử dụng một phương pháp gọi là "lũy thừa modulo" để tính toán lũy thừa mà không bị tràn số.
+
+        Dưới đây là cách hàm hoạt động:
+
+        Tạo danh sách (List) powers và valueToPowers để lưu trữ các giá trị liên quan đến lũy thừa và 
+        giá trị của value^lũy thừa tương ứng.
+
+        Kiểm tra xem modulus có phải là số dương hay không. Nếu modulus bằng 0, hàm hiển thị một thông báo
+        lỗi và trả về -1.
+
+        Giới hạn giá trị của value bằng modulus (value = value % modulus). Điều này đảm bảo rằng value 
+        không lớn hơn modulus.
+
+        Khởi tạo lastPower và lastValue với giá trị ban đầu là 1 và value tương ứng. Sau đó, 
+        thêm lastPower và lastValue vào danh sách powers và valueToPowers.
+
+        Sử dụng vòng lặp while để tính toán các lũy thừa và giá trị của value^lũy thừa. 
+        Lặp cho đến khi lastPower lớn hơn hoặc bằng exponent.
+
+        Tính toán kết quả cuối cùng bằng cách sử dụng một vòng lặp for để tách giá trị của exponent
+        thành các lũy thừa nhỏ hơn và nhân chúng với giá trị tương ứng của value^lũy thừa vào result. Kết quả cuối cùng là result % modulus để đảm bảo rằng nó nằm trong khoảng từ 0 đến modulus - 1.
+
+        Trả về kết quả cuối cùng là lũy thừa của value theo exponent trong modulo modulus.
+
+        Hàm này hữu ích trong các lĩnh vực như mã hóa và giải mã, mật mã học, và các ứng dụng liên quan
+        đến tính toán trên các miền hữu hạn.*/
+        
+        
         // Perform the exponentiation.
         private long Exponentiate(long value, long exponent, long modulus)
         {
             // Make lists of powers and the value to that power.
             List<long> powers = new List<long>();
             List<long> valueToPowers = new List<long>();
+
+            if (modulus == 0)
+            {
+                MessageBox.Show("Modulus must be greater than 0");
+                return -1;
+            }
 
             // Makes sure the value isn't greater than the modulus.
             value = value % modulus;

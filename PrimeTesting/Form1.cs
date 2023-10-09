@@ -26,6 +26,38 @@ namespace PrimeTesting
             numberTextBox.Text = Rand.Next(int.MaxValue).ToString();
         }
 
+
+
+
+
+        /*
+         * Bài toán tìm số nguyên tố trong khoảng từ 1 đến n là một trong những bài toán quan trọng trong 
+         * toán học và khoa học máy tính với nhiều ứng dụng thực tế quan trọng. 
+         * Dưới đây là một số ứng dụng của bài toán này:
+
+        Bảo mật và mã hóa: Số nguyên tố được sử dụng trong nhiều thuật toán mã hóa, 
+        như RSA (Rivest-Shamir-Adleman), một hệ thống mã hóa công khai phổ biến. 
+        Việc tìm số nguyên tố là quan trọng để tạo ra các khóa bảo mật và giải mã thông tin một cách an toàn.
+
+        Tính toán số lượng ước số: Số nguyên tố là các số chỉ có hai ước số dương (1 và chính nó).
+        Việc tìm số nguyên tố giúp tính toán số lượng ước số của một số, một phần quan trọng trong 
+        lý thuyết số học và ứng dụng như việc kiểm tra tính nguyên tố của một số.
+
+        Quản lý tài liệu và dữ liệu: Số nguyên tố được sử dụng để tạo ra các mã độc đáo 
+        (ví dụ: ISBN cho sách, mã UPC cho sản phẩm) để quản lý và theo dõi các sản phẩm và tài liệu.
+
+        Tối ưu hóa: Số nguyên tố có nhiều ứng dụng trong tối ưu hóa và lập lịch, 
+        chẳng hạn như tạo ra các chu kỳ không trùng lặp hoặc tối ưu hóa phân phối tài nguyên.
+
+        Xử lý dữ liệu: Trong khoa học máy tính và khoa học dữ liệu, việc tìm số nguyên tố trong 
+        một khoảng có thể được sử dụng để tạo dữ liệu kiểm tra hoặc ví dụ thử nghiệm cho các thuật toán khác.
+
+        Khoa học và toán học thuần túy: Tìm số nguyên tố là một phần quan trọng của lý thuyết số học
+        và có thể được sử dụng trong nhiều nghiên cứu toán học.
+
+        Việc tìm số nguyên tố trong khoảng từ 1 đến n không chỉ là một bài toán thú vị trong 
+        toán học mà còn có nhiều ứng dụng thực tiễn quan trọng trong nhiều lĩnh vực khác nhau.
+         */
         // Find a number that is probably prime.
         private void findPrimeButton_Click(object sender, EventArgs e)
         {
