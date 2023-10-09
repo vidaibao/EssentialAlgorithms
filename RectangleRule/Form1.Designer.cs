@@ -49,10 +49,10 @@
             // pctErrorTextBox
             // 
             this.pctErrorTextBox.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.pctErrorTextBox.Location = new System.Drawing.Point(228, 316);
+            this.pctErrorTextBox.Location = new System.Drawing.Point(228, 292);
             this.pctErrorTextBox.Name = "pctErrorTextBox";
             this.pctErrorTextBox.ReadOnly = true;
-            this.pctErrorTextBox.Size = new System.Drawing.Size(59, 20);
+            this.pctErrorTextBox.Size = new System.Drawing.Size(59, 19);
             this.pctErrorTextBox.TabIndex = 32;
             this.pctErrorTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
@@ -60,19 +60,19 @@
             // 
             this.label9.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(188, 319);
+            this.label9.Location = new System.Drawing.Point(188, 294);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(34, 13);
+            this.label9.Size = new System.Drawing.Size(32, 12);
             this.label9.TabIndex = 36;
             this.label9.Text = "% Err:";
             // 
             // trueAreaTextBox
             // 
             this.trueAreaTextBox.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.trueAreaTextBox.Location = new System.Drawing.Point(93, 330);
+            this.trueAreaTextBox.Location = new System.Drawing.Point(93, 305);
             this.trueAreaTextBox.Name = "trueAreaTextBox";
             this.trueAreaTextBox.ReadOnly = true;
-            this.trueAreaTextBox.Size = new System.Drawing.Size(75, 20);
+            this.trueAreaTextBox.Size = new System.Drawing.Size(75, 19);
             this.trueAreaTextBox.TabIndex = 30;
             this.trueAreaTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
@@ -80,19 +80,19 @@
             // 
             this.label8.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(30, 333);
+            this.label8.Location = new System.Drawing.Point(30, 307);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(57, 13);
+            this.label8.Size = new System.Drawing.Size(58, 12);
             this.label8.TabIndex = 35;
             this.label8.Text = "True Area:";
             // 
             // estAreaTextBox
             // 
             this.estAreaTextBox.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.estAreaTextBox.Location = new System.Drawing.Point(92, 304);
+            this.estAreaTextBox.Location = new System.Drawing.Point(92, 281);
             this.estAreaTextBox.Name = "estAreaTextBox";
             this.estAreaTextBox.ReadOnly = true;
-            this.estAreaTextBox.Size = new System.Drawing.Size(75, 20);
+            this.estAreaTextBox.Size = new System.Drawing.Size(75, 19);
             this.estAreaTextBox.TabIndex = 28;
             this.estAreaTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
@@ -100,18 +100,18 @@
             // 
             this.label7.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(30, 307);
+            this.label7.Location = new System.Drawing.Point(30, 283);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(53, 13);
+            this.label7.Size = new System.Drawing.Size(54, 12);
             this.label7.TabIndex = 34;
             this.label7.Text = "Est. Area:";
             // 
             // intervalsTextBox
             // 
             this.intervalsTextBox.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.intervalsTextBox.Location = new System.Drawing.Point(178, 249);
+            this.intervalsTextBox.Location = new System.Drawing.Point(178, 230);
             this.intervalsTextBox.Name = "intervalsTextBox";
-            this.intervalsTextBox.Size = new System.Drawing.Size(34, 20);
+            this.intervalsTextBox.Size = new System.Drawing.Size(34, 19);
             this.intervalsTextBox.TabIndex = 26;
             this.intervalsTextBox.Text = "10";
             this.intervalsTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -120,18 +120,18 @@
             // 
             this.label6.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(100, 252);
+            this.label6.Location = new System.Drawing.Point(100, 233);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(60, 13);
+            this.label6.Size = new System.Drawing.Size(61, 12);
             this.label6.TabIndex = 33;
             this.label6.Text = "# Intervals:";
             // 
             // integrateButton
             // 
             this.integrateButton.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.integrateButton.Location = new System.Drawing.Point(125, 275);
+            this.integrateButton.Location = new System.Drawing.Point(125, 254);
             this.integrateButton.Name = "integrateButton";
-            this.integrateButton.Size = new System.Drawing.Size(75, 23);
+            this.integrateButton.Size = new System.Drawing.Size(75, 21);
             this.integrateButton.TabIndex = 27;
             this.integrateButton.Text = "Integrate";
             this.integrateButton.UseVisualStyleBackColor = true;
@@ -140,9 +140,9 @@
             // xMaxTextBox
             // 
             this.xMaxTextBox.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.xMaxTextBox.Location = new System.Drawing.Point(178, 223);
+            this.xMaxTextBox.Location = new System.Drawing.Point(178, 206);
             this.xMaxTextBox.Name = "xMaxTextBox";
-            this.xMaxTextBox.Size = new System.Drawing.Size(34, 20);
+            this.xMaxTextBox.Size = new System.Drawing.Size(34, 19);
             this.xMaxTextBox.TabIndex = 20;
             this.xMaxTextBox.Text = "5";
             this.xMaxTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -151,18 +151,18 @@
             // 
             this.label3.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(159, 226);
+            this.label3.Location = new System.Drawing.Point(159, 209);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(16, 13);
+            this.label3.Size = new System.Drawing.Size(15, 12);
             this.label3.TabIndex = 25;
             this.label3.Text = "to";
             // 
             // xMinTextBox
             // 
             this.xMinTextBox.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.xMinTextBox.Location = new System.Drawing.Point(119, 223);
+            this.xMinTextBox.Location = new System.Drawing.Point(119, 206);
             this.xMinTextBox.Name = "xMinTextBox";
-            this.xMinTextBox.Size = new System.Drawing.Size(34, 20);
+            this.xMinTextBox.Size = new System.Drawing.Size(34, 19);
             this.xMinTextBox.TabIndex = 19;
             this.xMinTextBox.Text = "0";
             this.xMinTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -171,18 +171,18 @@
             // 
             this.label2.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(100, 226);
+            this.label2.Location = new System.Drawing.Point(100, 209);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(17, 13);
+            this.label2.Size = new System.Drawing.Size(14, 12);
             this.label2.TabIndex = 22;
             this.label2.Text = "X:";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 10);
+            this.label1.Location = new System.Drawing.Point(12, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(101, 13);
+            this.label1.Size = new System.Drawing.Size(115, 12);
             this.label1.TabIndex = 21;
             this.label1.Text = "y = 1 + x + Sin(2 * x)";
             // 
@@ -192,18 +192,18 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.graphPictureBox.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.graphPictureBox.Location = new System.Drawing.Point(12, 26);
+            this.graphPictureBox.Location = new System.Drawing.Point(12, 24);
             this.graphPictureBox.Name = "graphPictureBox";
-            this.graphPictureBox.Size = new System.Drawing.Size(288, 191);
+            this.graphPictureBox.Size = new System.Drawing.Size(288, 177);
             this.graphPictureBox.TabIndex = 18;
             this.graphPictureBox.TabStop = false;
             // 
             // Form1
             // 
             this.AcceptButton = this.integrateButton;
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(312, 361);
+            this.ClientSize = new System.Drawing.Size(312, 333);
             this.Controls.Add(this.pctErrorTextBox);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.trueAreaTextBox);
@@ -220,6 +220,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.graphPictureBox);
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "RectangleRule";
             ((System.ComponentModel.ISupportInitialize)(this.graphPictureBox)).EndInit();
             this.ResumeLayout(false);
