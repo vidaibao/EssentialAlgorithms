@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EssentialAlgorithms", "EssentialAlgorithms\EssentialAlgorithms.csproj", "{1E64FB3E-0ACF-4A77-8079-7C1510FFA5C2}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "EssentialAlgorithmsPy", "..\..\python\EssentialAlgorithmsPy\EssentialAlgorithmsPy.pyproj", "{2A240644-6A93-45DD-A7E3-97148E9D76C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gcd", "Gcd\Gcd.csproj", "{C54D3098-931D-4637-AA1A-1F85E3A38078}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1E64FB3E-0ACF-4A77-8079-7C1510FFA5C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E64FB3E-0ACF-4A77-8079-7C1510FFA5C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E64FB3E-0ACF-4A77-8079-7C1510FFA5C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E64FB3E-0ACF-4A77-8079-7C1510FFA5C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A240644-6A93-45DD-A7E3-97148E9D76C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A240644-6A93-45DD-A7E3-97148E9D76C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C54D3098-931D-4637-AA1A-1F85E3A38078}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C54D3098-931D-4637-AA1A-1F85E3A38078}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C54D3098-931D-4637-AA1A-1F85E3A38078}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C54D3098-931D-4637-AA1A-1F85E3A38078}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {06916166-9271-41FB-A85C-C8400AB48125}
+	EndGlobalSection
+EndGlobal
