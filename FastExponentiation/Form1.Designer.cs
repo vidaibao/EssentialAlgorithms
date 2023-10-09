@@ -38,28 +38,28 @@
             // 
             // resultTextBox
             // 
-            this.resultTextBox.Location = new System.Drawing.Point(58, 78);
+            this.resultTextBox.Location = new System.Drawing.Point(58, 72);
             this.resultTextBox.Name = "resultTextBox";
             this.resultTextBox.ReadOnly = true;
-            this.resultTextBox.Size = new System.Drawing.Size(166, 20);
+            this.resultTextBox.Size = new System.Drawing.Size(166, 19);
             this.resultTextBox.TabIndex = 11;
             this.resultTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(12, 81);
+            this.label2.Location = new System.Drawing.Point(12, 75);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(40, 13);
+            this.label2.Size = new System.Drawing.Size(40, 12);
             this.label2.TabIndex = 10;
             this.label2.Text = "Result:";
             // 
             // evaluateButton
             // 
             this.evaluateButton.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.evaluateButton.Location = new System.Drawing.Point(90, 49);
+            this.evaluateButton.Location = new System.Drawing.Point(90, 45);
             this.evaluateButton.Name = "evaluateButton";
-            this.evaluateButton.Size = new System.Drawing.Size(75, 23);
+            this.evaluateButton.Size = new System.Drawing.Size(75, 21);
             this.evaluateButton.TabIndex = 9;
             this.evaluateButton.Text = "Evaluate";
             this.evaluateButton.UseVisualStyleBackColor = true;
@@ -67,18 +67,18 @@
             // 
             // exponentTextBox
             // 
-            this.exponentTextBox.Location = new System.Drawing.Point(144, 12);
+            this.exponentTextBox.Location = new System.Drawing.Point(144, 11);
             this.exponentTextBox.Name = "exponentTextBox";
-            this.exponentTextBox.Size = new System.Drawing.Size(80, 20);
+            this.exponentTextBox.Size = new System.Drawing.Size(80, 19);
             this.exponentTextBox.TabIndex = 8;
             this.exponentTextBox.Text = "16";
             this.exponentTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // valueTextBox
             // 
-            this.valueTextBox.Location = new System.Drawing.Point(58, 23);
+            this.valueTextBox.Location = new System.Drawing.Point(58, 21);
             this.valueTextBox.Name = "valueTextBox";
-            this.valueTextBox.Size = new System.Drawing.Size(80, 20);
+            this.valueTextBox.Size = new System.Drawing.Size(80, 19);
             this.valueTextBox.TabIndex = 7;
             this.valueTextBox.Text = "2";
             this.valueTextBox.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -86,18 +86,18 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 26);
+            this.label1.Location = new System.Drawing.Point(12, 24);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(37, 13);
+            this.label1.Size = new System.Drawing.Size(36, 12);
             this.label1.TabIndex = 6;
             this.label1.Text = "Value:";
             // 
             // Form1
             // 
             this.AcceptButton = this.evaluateButton;
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(254, 111);
+            this.ClientSize = new System.Drawing.Size(254, 102);
             this.Controls.Add(this.resultTextBox);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.evaluateButton);
@@ -105,6 +105,7 @@
             this.Controls.Add(this.valueTextBox);
             this.Controls.Add(this.label1);
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FastExponentiation";
             this.ResumeLayout(false);
             this.PerformLayout();

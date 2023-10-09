@@ -38,6 +38,39 @@ namespace FastExponentiation
             }
         }
 
+
+
+
+
+        /*
+         * Hàm Exponentiate thực hiện phép tính lũy thừa của một số value lên một số mũ exponent. 
+         * Hàm này sử dụng một phương pháp gọi là "phân rã lũy thừa" (exponentiation by squaring) 
+         * để tính toán lũy thừa một cách hiệu quả. Dưới đây là cách hàm hoạt động:
+
+        Đầu tiên, hàm tạo hai danh sách (List) powers và valueToPowers để lưu trữ các giá trị liên quan đến
+        lũy thừa và giá trị của value lũy thừa tương ứng.
+
+        Khởi tạo lastPower và lastValue với giá trị ban đầu là 1 và value tương ứng. 
+        Sau đó, thêm lastPower và lastValue vào danh sách powers và valueToPowers.
+
+        Sử dụng vòng lặp while để tính toán các lũy thừa và giá trị của value lũy thừa tương ứng. 
+        Vòng lặp này tiếp tục cho đến khi lastPower lớn hơn hoặc bằng exponent. 
+        Trong mỗi vòng lặp, lastPower được nhân đôi (lastPower *= 2) và 
+        lastValue được bình phương (lastValue *= lastValue). 
+        Kết quả này được thêm vào danh sách powers và valueToPowers.
+
+        Sau khi đã tính toán các lũy thừa và giá trị của value lũy thừa tương ứng, 
+        hàm sử dụng một biến result để tích hợp các giá trị này lại với nhau để tạo ra kết quả cuối cùng. 
+        Ban đầu, result được khởi tạo bằng 1.
+
+        Hàm sử dụng một vòng lặp for để tìm lớn nhất trong các giá trị lũy thừa trong danh sách
+        powers mà vẫn nhỏ hơn hoặc bằng exponent. Sau đó, nó sử dụng giá trị tương ứng từ 
+        danh sách valueToPowers để cập nhật result bằng cách nhân với giá trị đó. 
+        Đồng thời, nó cập nhật exponent bằng cách trừ đi giá trị lớn nhất đã sử dụng.
+
+        Cuối cùng, hàm trả về result là kết quả cuối cùng của phép tính lũy thừa value^exponent.
+         */
+
         // Perform the exponentiation.
         private long Exponentiate(long value, long exponent)
         {

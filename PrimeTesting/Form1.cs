@@ -81,6 +81,67 @@ namespace PrimeTesting
                 isPrimeTextBox.Text = "Not prime.";
         }
 
+
+
+
+
+        /*
+         * Hàm IsPrimeFermat được sử dụng để kiểm tra xem một số nguyên có phải là số nguyên tố hay không, 
+         * nhưng không phải là phương pháp kiểm tra tuyệt đối. 
+         * Thay vào đó, nó sử dụng một phương pháp gọi là "Kiểm tra Fermat" (Fermat Primality Test) để đưa ra dự đoán xem một số có thể là số nguyên tố hoặc có thể không. Đây là cách hàm hoạt động:
+
+        Vòng lặp chạy numTrials lần để thực hiện kiểm tra Fermat nhiều lần để tăng độ chính xác của kiểm tra. 
+        Số lần kiểm tra được xác định bởi tham số numTrials.
+
+        Trong mỗi lần kiểm tra, hàm chọn một số nguyên ngẫu nhiên test trong khoảng từ 2 đến number - 1. 
+        Điều này được thực hiện để tạo ra một số nguyên ngẫu nhiên để kiểm tra tính nguyên tố của number.
+
+        Sau khi chọn được số test, hàm kiểm tra xem test và number có nguyên tố cùng nhau (relatively prime) không.
+        Điều này được thực hiện bằng cách sử dụng hàm Gcd(test, number) để tính ước số chung lớn nhất 
+        (GCD - Greatest Common Divisor) của test và number. Nếu GCD bằng 1, tức là test và number nguyên tố 
+        cùng nhau, hàm tiếp tục kiểm tra.
+
+        Hàm tính giá trị của test^(number-1) mod number. Điều này tương đương với việc tính lũy thừa của 
+        test lên số mũ number - 1, sau đó lấy phần dư khi chia cho number.
+
+        Nếu kết quả tính toán trong bước trước không bằng 1 (result != 1), thì hàm trả về false, 
+        đồng nghĩa với việc number không phải là số nguyên tố. Nếu kết quả tính toán là 1, 
+        hàm tiếp tục vòng lặp để kiểm tra số tiếp theo.
+
+        Nếu tất cả các lần kiểm tra đều kết thúc mà không tìm thấy bất kỳ lần nào khi kết quả 
+        tính toán khác 1, thì hàm trả về true, đồng nghĩa với việc number có thể là số nguyên tố 
+        (nhưng không phải tuyệt đối).
+
+
+
+        Phương pháp kiểm tra Fermat không phải là phương pháp kiểm tra tuyệt đối để xác định một số
+        có phải là số nguyên tố hay không. Thay vào đó, nó được gọi là một "phương pháp xác suất" 
+        (probabilistic method) để kiểm tra số nguyên tố. Sự không chắc chắn trong kết quả xuất phát 
+        từ việc nó có thể cho kết quả sai cho một số cụ thể trong một số trường hợp.
+
+        Ứng dụng của kiểm tra Fermat và các phương pháp kiểm tra xác suất khác cho số nguyên tố thường
+        liên quan đến việc thực hiện kiểm tra sơ bộ trước khi thực hiện kiểm tra số nguyên tố nghiêm ngặt
+        và tốn kém hơn.
+        Dưới đây là một số ứng dụng:
+
+        Lọc số nguyên tố ứng viên: Trong các ứng dụng yêu cầu sử dụng số nguyên tố lớn 
+        (ví dụ: trong mã hóa RSA), việc sử dụng kiểm tra Fermat hoặc các kiểm tra xác suất khác 
+        có thể giúp lọc ra các số ứng viên có thể là số nguyên tố trước khi thực hiện kiểm tra 
+        nguyên tố chi tiết và tốn kém hơn.
+
+        Kiểm tra số nguyên tố trong các bài toán đòi hỏi độ chính xác không cao: Trong một số ứng dụng, 
+        độ chính xác tuyệt đối không cần thiết và kiểm tra xác suất có thể cung cấp đủ độ tin cậy 
+        cho mục đích cụ thể.
+
+        Kiểm tra số nguyên tố trên các nền tảng có tài nguyên hạn chế: Trong môi trường có tài nguyên hạn chế,
+        việc sử dụng kiểm tra xác suất có thể nhanh hơn và tiết kiệm tài nguyên hơn so với kiểm tra nguyên tố
+        tuyệt đối.
+
+        Tuy nhiên, cần lưu ý rằng kiểm tra Fermat và các kiểm tra xác suất khác có thể cho kết quả sai 
+        trong một số trường hợp, do đó, nếu độ chính xác là yếu tố quan trọng, thì sau đó cần thực hiện
+        kiểm tra số nguyên tố tuyệt đối để xác nhận kết quả.
+         */
+
         // Use Fermat's little theorem to see if the number is probably prime.
         private bool IsPrimeFermat(int number, int numTrials)
         {

@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExponentiateMod", "Exponent
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimeTesting", "PrimeTesting\PrimeTesting.csproj", "{FCE689A9-984F-40BA-B8D3-666D625FA4CA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FastExponentiation", "FastExponentiation\FastExponentiation.csproj", "{65446ECD-60AD-450A-A849-CADD64656D9D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,6 +39,10 @@ Global
 		{FCE689A9-984F-40BA-B8D3-666D625FA4CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FCE689A9-984F-40BA-B8D3-666D625FA4CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FCE689A9-984F-40BA-B8D3-666D625FA4CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65446ECD-60AD-450A-A849-CADD64656D9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65446ECD-60AD-450A-A849-CADD64656D9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65446ECD-60AD-450A-A849-CADD64656D9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65446ECD-60AD-450A-A849-CADD64656D9D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
